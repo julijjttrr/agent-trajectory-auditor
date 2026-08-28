@@ -1,4 +1,4 @@
-import { Activity, ShieldCheck, AlertTriangle, XCircle, ArrowRight, Github, Terminal } from 'lucide-react'
+import { Activity, ShieldCheck, AlertTriangle, XCircle, ArrowRight, GithubIcon, Terminal } from 'lucide-react'
 
 const demo = [
   { step: 1, action: 'Read customer request', tool: 'crm.get_customer', status: 'aligned' },
@@ -13,7 +13,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#07090d] text-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
         <div className="flex items-center gap-3"><div className="grid h-9 w-9 place-items-center rounded-xl bg-white text-black"><ShieldCheck size={20}/></div><span className="font-semibold tracking-tight">Trajectory</span></div>
-        <div className="flex items-center gap-3 text-sm text-zinc-400"><span>Auditor</span><a href="https://github.com/julijjttrr/agent-trajectory-auditor" className="flex items-center gap-2 rounded-lg border border-white/10 px-3 py-2 hover:bg-white/5"><Github size={15}/> GitHub</a></div>
+        <div className="flex items-center gap-3 text-sm text-zinc-400"><span>Auditor</span><a href="https://github.com/julijjttrr/agent-trajectory-auditor" className="flex items-center gap-2 rounded-lg border border-white/10 px-3 py-2 hover:bg-white/5"><GithubIcon size={15}/> GitHub</a></div>
       </nav>
 
       <section className="mx-auto max-w-7xl px-6 pb-16 pt-16">
